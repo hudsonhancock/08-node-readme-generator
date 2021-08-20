@@ -1,23 +1,23 @@
 # 
-# MIT
+## MIT
 
 ## Description
 ###### 
 
-## Installation Instructions
+## Install
 ###### 
 
-## Usage Information
+## Usage
 ###### 
 
-## Contribution Guidelines
+## Contribute
 ###### 
 
-## Test Instructions
+## Test
 ###### 
 
-## Github Username
-#### *hudsonhancock* — [GitHub Profile](https://github.com/hudsonhancock)
+## Github
+#### *d* — [GitHub Profile](https://github.com/d)
 
-## Github Username
+## Email
 ###### d

@@ -95,9 +95,29 @@ inquirer
     },
   ])
   .then((answers) => {
+    let license = answers.license;
+    renderBadge(license);
     const mdPageContent = generateMdContent(answers);
-
     fs.writeFile("README.md", mdPageContent, (err) =>
       err ? console.log(err) : console.log("Successfully created README.md!")
     );
   });
+
+function renderBadge(license) {
+  let badge = "";
+  switch (license) {
+    case "Apache license 2.0":
+      console.log("foo");
+      badge =
+        "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)";
+      break;
+    case "MIT":
+      console.log("baz");
+      badge =
+        "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)";
+      break;
+    default:
+      console.log("Render badge failed");
+      break;
+  }
+}
