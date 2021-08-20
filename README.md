@@ -1,23 +1,24 @@
-# 
-# MIT
-
-## Description
-###### 
-
-## Installation Instructions
-###### 
-
-## Usage Information
-###### 
-
-## Contribution Guidelines
-###### 
-
-## Test Instructions
-###### 
-
-## Github Username
-#### *hudsonhancock* — [GitHub Profile](https://github.com/hudsonhancock)
-
-## Github Username
-###### d
+# Weather App
+  ## GNU General Public License v3.0
+  
+  ## Description
+  ###### Weather
+  
+  ## Install
+  ###### Nope
+  
+  ## Usage
+  ###### maybe
+  
+  ## Contribute
+  ###### Something
+  
+  ## Test
+  ###### test
+  
+  ## Github
+  #### *Uh huh* — [GitHub Profile](https://github.com/Uh huh)
+  
+  ## Email
+  ###### nope
+  [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
