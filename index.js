@@ -3,7 +3,7 @@ const fs = require("fs");
 
 const generateMdContent = (answers) =>
   `# ${answers.title}
-# ${answers.license}
+## ${answers.license}
 
 ## Description
 ###### ${answers.description}
