@@ -1,0 +1,22 @@
+{
+  "name": "08-node-readme-generator",
+  "version": "1.0.0",
+  "description": "## Description   ######",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hudsonhancock/08-node-readme-generator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hudsonhancock/08-node-readme-generator/issues"
+  },
+  "homepage": "https://github.com/hudsonhancock/08-node-readme-generator#readme",
+  "dependencies": {
+    "inquirer": "^8.1.2"
+  }
+}
