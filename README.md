@@ -1,5 +1,5 @@
 # 
-## MIT
+## Apache license 2.0
 
 ## Description
 ###### 
@@ -17,7 +17,7 @@
 ###### 
 
 ## Github
-#### *d* — [GitHub Profile](https://github.com/d)
+#### *;* — [GitHub Profile](https://github.com/;)
 
 ## Email
-###### d
+###### ;

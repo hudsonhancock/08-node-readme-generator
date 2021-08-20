@@ -57,7 +57,7 @@ inquirer
         "Apache license 2.0",
         "GNU General Public License v3.0",
         "MIT",
-        "Unlicensed",
+        "none",
       ],
       default: 2,
     },
@@ -110,11 +110,29 @@ function renderBadge(license) {
       console.log("foo");
       badge =
         "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)";
+      fs.appendFile("README.md", badge, (err) => {
+        if (err) {
+          console.log(err);
+        } else {
+          console.log("Successfully appended to README.md!");
+          console.log(badge);
+        }
+      });
       break;
     case "MIT":
       console.log("baz");
       badge =
         "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)";
+      break;
+    case "GNU General Public License v3.0":
+      console.log("doop");
+      badge =
+        "[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)";
+      break;
+    case "none":
+      console.log("zoop");
+      badge =
+        "[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)";
       break;
     default:
       console.log("Render badge failed");
