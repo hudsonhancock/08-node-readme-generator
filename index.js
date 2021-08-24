@@ -4,11 +4,10 @@ const { gunzip } = require("zlib");
 
 const generateMdContent = (answers) =>
   `${renderBadge(answers.license)}
-  ....................................................................................................................
   #### *This application is covered under the ${answers.license} license.*
 
   ##### Table of Contents  
-  ###### [Install](#intall)  
+  ###### [Install](#install)  
   ###### [Usage](#usage) 
   ###### [Contribute](#contribute) 
   ###### [Test](#test)
@@ -123,51 +122,12 @@ function renderBadge(badgeType) {
     "[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)";
 
   if (badgeType === "Apache license 2.0") {
-    fs.writeFile("README.md", apache, (err) =>
-      err ? console.log(err) : console.log("Successfully created README.md!")
-    );
+    return apache;
   } else if (badgeType === "MIT") {
-    fs.writeFile("README.md", mit, (err) =>
-      err ? console.log(err) : console.log("Successfully created README.md!")
-    );
+    return mit;
   } else if (badgeType === "GNU General Public License v3.0") {
-    fs.writeFile("README.md", gnu, (err) =>
-      err ? console.log(err) : console.log("Successfully created README.md!")
-    );
+    return gnu;
   } else {
-    fs.writeFile("README.md", none, (err) =>
-      err ? console.log(err) : console.log("Successfully created README.md!")
-    );
+    return none;
   }
 }
-
-//   switch (a) {
-//     case "Apache license 2.0":
-//       console.log("foo");
-//       badge =
-//         "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)";
-//       appendToMd(badge);
-//       break;
-//     case "MIT":
-//       console.log("baz");
-//       badge =
-//         "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)";
-//       appendToMd(badge);
-//       break;
-//     case "GNU General Public License v3.0":
-//       console.log("doop");
-//       badge =
-//         "[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)";
-//       appendToMd(badge);
-//       break;
-//     case "none":
-//       console.log("zoop");
-//       badge =
-//         "[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)";
-//       appendToMd(badge);
-//       break;
-//     default:
-//       console.log("Render badge failed");
-//       break;
-//   }
-// }
