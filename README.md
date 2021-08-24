@@ -1,7 +1,7 @@
-undefined
-....................................................................................................................
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+.............
 
-#### _This application is covered under the none license._
+#### _This application is covered under the MIT license._
 
 ##### Table of Contents
 
@@ -15,30 +15,30 @@ undefined
 
 ###### [Questions](#questions)
 
-# Test
+# Good README.md Generator
 
 ## Description
 
-### HJuds
+### Generate a good README.md from the terminal using node.js.
 
 ## Install
 
-### kjflsda
+### inquirer.js
 
 ## Usage
 
-### jsdafkjh
+### node index.js
 
 ## Contribute
 
-### ;jklashdf
+### Submit a pull request.
 
 ## Test
 
-### hjasdf
+### https://www.youtube.com/watch?v=dQw4w9WgXcQ
 
 ## Questions
 
-### _dfsakjh;bdfs_ — [GitHub Profile](https://github.com/dfsakjh;bdfs)
+### *hudsonhancock@gmail.com* — [GitHub Profile](https://github.com/hudsonhancock)
 
-###### Contact me at kjsdfa.
+###### Contact me at hudsonhancock@gmail.com.
